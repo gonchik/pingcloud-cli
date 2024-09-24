@@ -1,2 +1,7 @@
 pingcloud-cli
 vendor
+build
+
+# IDEA files
+*.iml
+.idea

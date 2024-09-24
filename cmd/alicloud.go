@@ -1,5 +1,5 @@
 /*
-Copyright © 2019 NAME HERE <EMAIL ADDRESS>
+Copyright © 2024 Gonchik Tsymzhitov <gonchik.tsymzhitov@atlassiancommunity.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -16,32 +16,36 @@ limitations under the License.
 package cmd
 
 import (
-	"fmt"
-
+	"github.com/reoim/pingcloud-cli/ping"
 	"github.com/spf13/cobra"
 )
 
-const version = "v0.2.2"
-
-// versionCmd represents the version command
-var versionCmd = &cobra.Command{
-	Use:   "version",
-	Short: "Print version of pingcloud-cli",
+// aliCmd represents the AliCloud command
+var aliCmd = &cobra.Command{
+	Use:   "ali",
+	Short: "Check latencies of AliCloud (Aliyun) regions.",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("pingcloud-cli " + version)
+		c := ping.CmdOption{
+			Option:     "alicloud",
+			OptionName: "Ali",
+			ListFlg:    list,
+			Args:       args,
+		}
+
+		c.StartCmd()
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(versionCmd)
-
+	rootCmd.AddCommand(aliCmd)
+	aliCmd.Flags().BoolVarP(&list, "list", "l", false, "List all available regions")
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
-	// versionCmd.PersistentFlags().String("foo", "", "A help for foo")
+	// aliCmd.PersistentFlags().String("foo", "", "A help for foo")
 
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
-	// versionCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	// aliCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
