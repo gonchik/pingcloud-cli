@@ -1,20 +1,26 @@
 [RegionCode],[RegionName],[Endpoint]
-us-east-1,US East (N. Virginia),http://3.80.0.0/green-icon.gif
-us-east-2,US East (Ohio),http://3.13.0.254/green-icon.gif
-us-west-1,US West (N. California),http://13.52.0.0/green-icon.gif
-us-west-2,US West (Oregon),http://18.236.0.0/green-icon.gif
-ca-central-1,Canada (Central),http://15.222.0.0/green-icon.gif
-eu-central-1,EU (Frankfurt),http://3.120.0.0/green-icon.gif
-eu-west-1,EU (Ireland),http://3.248.0.0/green-icon.gif
-eu-west-2,EU (London),http://3.8.0.0/green-icon.gif
-eu-west-3,EU (Paris),http://15.188.0.0/green-icon.gif
-eu-north-1,EU (Stockholm),http://13.48.0.0/green-icon.gif
-ap-east-1,Asia Pacific (Hong Kong),http://18.162.80.8/green-icon.gif
-ap-northeast-1,Asia Pacific (Tokyo),http://3.112.0.0/green-icon.gif
-ap-northeast-2,Asia Pacific (Seoul),http://13.124.63.251/green-icon.gif
-ap-northeast-3,Asia Pacific (Osaka-Local),http://13.208.32.253/green-icon.gif
-ap-southeast-1,Asia Pacific (Singapore),http://3.0.0.9/green-icon.gif
-ap-southeast-2,Asia Pacific (Sydney),http://3.24.0.0/green-icon.gif
-ap-south-1,Asia Pacific (Mumbai),http://13.126.0.252/green-icon.gif
-me-south-1,Middle East (Bahrain),http://15.185.32.254/green-icon.gif
-sa-east-1,South America (São Paulo),http://18.228.0.0/green-icon.gif
+us-east-1,US East (N. Virginia),http://dynamodb.us-east-1.amazonaws.com/ping
+us-east-2,US East (Ohio),http://dynamodb.us-east-2.amazonaws.com/ping
+us-west-1,US West (N. California),http://dynamodb.us-west-1.amazonaws.com/ping
+us-west-2,US West (Oregon),http://dynamodb.us-west-2.amazonaws.com/ping
+us-gov-east-1,AWS GovCloud (US-East),http://dynamodb.us-gov-east-1.amazonaws.com/ping
+us-gov-west-1,AWS GovCloud (US),http://dynamodb.us-gov-west-1.amazonaws.com/ping
+ca-central-1,Canada (Central),http://dynamodb.ca-central-1.amazonaws.com/ping
+eu-central-1,EU (Frankfurt),http://dynamodb.eu-central-1.amazonaws.com/ping
+eu-west-1,EU (Ireland),http://dynamodb.eu-west-1.amazonaws.com/ping
+eu-west-2,EU (London),http://dynamodb.eu-west-2.amazonaws.com/ping
+eu-west-3,EU (Paris),http://dynamodb.eu-west-3.amazonaws.com/ping
+eu-north-1,EU (Stockholm),http://dynamodb.eu-north-1.amazonaws.com/ping
+eu-south-1,EU (Milan),http://dynamodb.eu-south-1.amazonaws.com/ping
+af-south-1,Africa (Cape Town),http://dynamodb.af-south-1.amazonaws.com/ping
+ap-east-1,Asia Pacific (Hong Kong),http://dynamodb.ap-east-1.amazonaws.com/ping
+ap-northeast-1,Asia Pacific (Tokyo),http://dynamodb.ap-northeast-1.amazonaws.com/ping
+ap-northeast-2,Asia Pacific (Seoul),http://dynamodb.ap-northeast-2.amazonaws.com/ping
+ap-northeast-3,Asia Pacific (Osaka-Local),http://dynamodb.ap-northeast-3.amazonaws.com/ping
+ap-southeast-1,Asia Pacific (Singapore),http://dynamodb.ap-southeast-1.amazonaws.com/ping
+ap-southeast-2,Asia Pacific (Sydney),http://dynamodb.ap-southeast-2.amazonaws.com/ping
+ap-south-1,Asia Pacific (Mumbai),http://dynamodb.ap-south-1.amazonaws.com/ping
+cn-north-1,China (Beijing),http://dynamodb.cn-north-1.amazonaws.com.cn/ping
+cn-northwest-1,China (Ningxia),http://dynamodb.cn-northwest-1.amazonaws.com.cn/ping
+me-south-1,Middle East (Bahrain),http://dynamodb.me-south-1.amazonaws.com/ping
+sa-east-1,South America (São Paulo),http://dynamodb.sa-east-1.amazonaws.com/ping
