@@ -4,9 +4,7 @@ eastus2,United States (East US 2),http://asteastus2.blob.core.windows.net/public
 eastus,United States (East US),http://asteastus.blob.core.windows.net/public/callback.js
 northcentralus,United States (North Central US),http://astnorthcentralus.blob.core.windows.net/public/callback.js
 southcentralus,United States (South Central US),http://astsouthcentralus.blob.core.windows.net/public/callback.js
-westus2,United States (West US 2),http://astwestus2.blob.core.windows.net/public/callback.js
 westcentralus,United States (West Central US),http://astwestcentralus.blob.core.windows.net/public/callback.js
-westus,United States (West US),http://astwestus.blob.core.windows.net/public/callback.js
 canadacentral,Canada (Canada Central),http://astcanadacentral.blob.core.windows.net/public/callback.js
 canadaeast,Canada (Canada East),http://astcanadaeast.blob.core.windows.net/public/callback.js
 brazilsouth,Brazil (Brazil South),http://astbrazilsouth.blob.core.windows.net/public/callback.js
@@ -15,8 +13,6 @@ westeurope,Europe (West Europe),http://astwesteurope.blob.core.windows.net/publi
 francecentral,France (France Central),http://astfrancecentral.blob.core.windows.net/public/callback.js
 uksouth,United Kingdom (UK South),http://astuksouth.blob.core.windows.net/public/callback.js
 ukwest,United Kingdom (UK West),http://astukwest.blob.core.windows.net/public/callback.js
-eastasia,Asia Pacific (East Asia),http://asteastasia.blob.core.windows.net/public/callback.js
-southeastasia,Asia Pacific (Southeast Asia),http://astsoutheastasia.blob.core.windows.net/public/callback.js
 australiaeast,Australia (Australia East),http://astaustraliaeast.blob.core.windows.net/public/callback.js
 australiasoutheast,Australia (Australia Southeast),http://astaustraliasoutheast.blob.core.windows.net/public/callback.js
 centralindia,India (Central India),http://astcentralindia.blob.core.windows.net/public/callback.js
